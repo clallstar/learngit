@@ -1,0 +1,27 @@
+$ git config --global user.name "lgh"
+$ git config --global user.email "clallstar@163.com"
+$ mkdir learngit
+$ cd learngit
+$ git init
+$ git add file.txt
+$ git commit -m"new file"
+$ git status
+$ git diff
+$ git diff HEAD -- file.txt
+$ git reset --hard commitid
+$ git reset --hard HEAD~100
+$ git reflog
+$ git log(lg)
+¡¾git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset' --abbrev-commit"¡¿
+$ cat file.txt
+$ git checkout -- file.txt
+$ git reset HEAD file.txt
+$ git rm file.txt
+$ ssh-keygen -t rsa -C "clallstar@163.com"
+$ git remote add origin git@github.com:clallstar/learngit.git
+$ git push -u origin master
+$ git push origin master
+$ git clone git@github.com:clallstar/gitskills.git
+
+
+
