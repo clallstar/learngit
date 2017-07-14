@@ -1,0 +1,36 @@
+$ git config --global user.name "lgh"
+$ git config --global user.email "clallstar@163.com"       设置全局邮箱用户名变量
+
+$ mkdir learngit                      创建一个版本库，并使它可以被修改
+$ cd learngit
+$ git init
+
+$ git add file.txt                     添加文件到缓存区并提交
+$ git commit -m"new file"
+
+$ git status                           查看工作区文件
+$ git diff                             查看工作区文件具体修改
+$ git diff HEAD -- file.txt            查看工作区文件与版本库的区别
+$ git reset --hard commitid            通过ID回退版本
+$ git reset --hard HEAD~100            通过HEAD排序回退版本
+$ git reflog                           查看操作历史
+$ git log(lg)                          查看版本历史
+【git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset' --abbrev-commit"】
+
+$ cat file.txt                         查看文件
+$ git rm file.txt                      删除文件
+$ git checkout -- file.txt             撤销工作区的操作
+$ git reset HEAD file.txt              撤销缓存区的操作（工作区的操作还在）
+
+$ ssh-keygen -t rsa -C "clallstar@163.com"                       创建密匙
+$ git remote add origin git@github.com:clallstar/learngit.git    关联版本库
+$ git push -u origin master                                      第一次推送
+$ git push origin master                                         推送
+$ git clone git@github.com:clallstar/gitskills.git               克隆版本库
+
+$ git branch NAME + $ git checkout NAME == $ git checkout -b NAME   新建并切换到该分支
+
+
+
+
+
