@@ -32,7 +32,7 @@ $ git branch NAME + $ git checkout NAME == $ git checkout -b NAME   新建并切换到
 $ git checkout NAME    切换分支
 $ git merge NAME       合并分支
 $ git branch -d NAME   删除分支
-& git merge --no-ff -m "合并并指向新ID" NAME              将当前分支与NAME分支合并并生产新ID
+$ git merge --no-ff -m "合并并指向新ID" NAME              将当前分支与NAME分支合并并生产新ID
 
 
 
