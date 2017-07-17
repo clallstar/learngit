@@ -34,6 +34,5 @@ $ git merge NAME        合并分支
 $ git branch -d NAME    删除分支
 $ git merge --no-ff -m "合并并指向新ID" NAME              将当前分支与NAME分支合并并生产新ID
 $ git stash             临时存储工作区    $ git stash  apply(恢复不删除记录)(or pop恢复并删除) 
-
-
+$ git remote -v         查看远程库信息
 
