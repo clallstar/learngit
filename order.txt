@@ -29,11 +29,11 @@ $ git push origin master                                         推送
 $ git clone git@github.com:clallstar/gitskills.git               克隆版本库
 
 $ git branch NAME + $ git checkout NAME == $ git checkout -b NAME   新建并切换到该分支
-$ git checkout NAME    切换分支
-$ git merge NAME       合并分支
-$ git branch -d NAME   删除分支
+$ git checkout NAME     切换分支
+$ git merge NAME        合并分支
+$ git branch -d NAME    删除分支
 $ git merge --no-ff -m "合并并指向新ID" NAME              将当前分支与NAME分支合并并生产新ID
-
+$ git stash             临时存储工作区    $ git stash  apply(恢复不删除记录)(or pop恢复并删除) 
 
 
 
